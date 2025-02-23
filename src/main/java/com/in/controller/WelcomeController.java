@@ -12,7 +12,7 @@ public class WelcomeController {
 		
 		ModelAndView mav =  new ModelAndView();
 		
-		mav.addObject("msg", "Hello All...");
+		mav.addObject("msg", "Hello All!");
 		mav.setViewName("index");		
 		
 		return mav;
